@@ -1,0 +1,19 @@
+#jednostki-miary > div {
+    background-color: rgba(106,106, 216, 0.6);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#piksele {
+    width: 400px;
+}
+#em {
+    width: 50em;
+}
+#procenty {
+    width: 50%;
+}
+/*ustawiamy szerokość na 1/2 wys.:*/
+#vh {
+    width: 50vh;
+}
