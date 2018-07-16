@@ -1,0 +1,35 @@
+body {
+    background-color: gold;
+}
+
+.flex-item {
+    color: #fff;
+    background-color: orange;
+    flex-basis: 25%;
+    /*    flex-basis ustawiamy kiedy ustawiamy flex-wrap*/
+}
+
+.flex-item:nth-last-of-type(odd) {
+    background-color: cadetblue;
+}
+
+/*zeby nam flex dzialal ustawiamy:display:flex;*/
+
+#container {
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    /*  flex-wrap ma sens kiedy ustawiamy flex-basis, zawijamy rzeczy. 
+    flex-wrap: wrap-reverse: zawija text w odwrotną stronę*/
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 600px;
+/*    przypina na dole:align-items: flex-end;*/
+    align-items: center;
+    align-content: flex-start;
+    
+}
+
+#ordered-item {
+    order: -1;
+}
