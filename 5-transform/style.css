@@ -2,3 +2,37 @@ body {
     background-color: red;
     
 }
+
+
+img {
+    margin: 150px;
+}
+
+#rotate {
+    transform: rotate(20deg);
+}
+/*przesunięcie obrazka:*/
+
+#translate {
+    transform: translate(90px, 60px);
+}
+
+#scale {
+    transform: scale(0.5);
+}
+
+@keyframes resize {
+    0%, 100% {
+        width: 100%;
+    }
+    
+    50% {
+        width: 50%;
+    }
+}
+
+#animation {
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
