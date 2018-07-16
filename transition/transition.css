@@ -1,0 +1,17 @@
+body {
+    background-color: pink;
+}
+
+a {
+/*    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s;*/
+    color: gray;
+    transition: color 2s ease-in 1s;
+    font-size: 77px;
+}
+
+a:hover {
+    color: orange;
+}
