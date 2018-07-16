@@ -1,0 +1,22 @@
+#container {
+    position: relative;
+    background-color: #a6a9b6;
+    border: 10px solid #666360;
+    width: 500px;
+    height: 500px;
+}
+.kwadrat {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+.gray {
+    right: 0;
+/*    top: 0;*/
+    background-color: #e4e4e4;
+}
+.orange {
+/*    left: 0;*/
+    bottom: 0;
+    background-color: #ff912e;
+}
